@@ -265,6 +265,7 @@ module BottomWallet (inDx, inDy, inDz, thickX, thickFront, thickBack, thickZ)  {
             }
         }
     }
+    // Close lock pins, 2 on the left and 2 on the right.
     translate([0, outDy/2 - cLockDistFromFront - cLockSection/2 + cLockPinWidth/2, -0.15])  {
         innerLeftHoleEdge  = +outDx/2 - cLockDistFromSide - cLockHoleLen;
         innerRightHoleEdge = -outDx/2 + cLockDistFromSide + cLockHoleLen;
@@ -295,6 +296,7 @@ module TopWallet (inDx, inDy, inDz, thickX, thickFront, thickBack, thickZ)  {
                    cLockSection/2 + (outDz - thickZ) - cLockSection + 0.35])
             LockHoles(outDx);
     }
+    // Close lock pins, 2 on the left and 2 on the right
     translate([0, outDy/2 - cLockDistFromFront + cLockSection/2 - cLockPinWidth/2, -0.15])  {
         innerLeftHoleEdge  = +outDx/2 - cLockDistFromSide - cLockHoleLen;
         innerRightHoleEdge = -outDx/2 + cLockDistFromSide + cLockHoleLen;
