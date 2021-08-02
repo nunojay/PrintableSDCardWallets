@@ -6,7 +6,8 @@ Need to hold some Micro SD Cards too? Use a Micro SD Card to SDCard adapter or p
 
 The STL output files for a few practical configurations are included, ready to be sliced and printed.
 
-I exercised the lock mechanism more than 160 times on one of the prints, without any loss of functionality. The spring will give on the first usage but that's OK, it is expected.
+I exercised the lock mechanism more than 160 times on one of the prints, without any loss of functionality.
+The card holding spring will give on the first usage but that's OK, it is expected.
 
 ![SDCard wallets](./images/SDCardWallets.jpg)
 ![SDCardWallet1x1](./images/SDCardWallet1x1.png)
